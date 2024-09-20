@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import MovieCard from './components/MovieCard';
 
-const API_KEY = 'YOUR_API_KEY'; // Replace with your TMDb API key
+const API_KEY = 'api_key'; // Replace with your TMDb API key
 
 const App = () => {
   const [query, setQuery] = useState('');
